@@ -1,0 +1,20 @@
+{
+  "name": "websocket-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "dev": "nodemon node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^8.5.10",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.0",
+    "ws": "^8.16.0"
+  }
+}
